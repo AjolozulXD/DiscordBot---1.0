@@ -29,6 +29,6 @@ async def on_message(message):
     else:
         await message.channel.send("No puedo procesar este comando, ¡lo siento!")
     
-client.run("MTI4MTc4MDU5NDQ1NTQ4MjQ2Mw.Gi1sA2.mZXzIA9BoP84arUsZo5IFpG9lY9Ycf6VC9Hc6A")
+client.run("TÚ TOKEN")
 
-client.run(settings["MTI4MTc4MDU5NDQ1NTQ4MjQ2Mw.Gi1sA2.mZXzIA9BoP84arUsZo5IFpG9lY9Ycf6VC9Hc6A"])
+client.run(settings["TÚ TOKEN"])
