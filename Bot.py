@@ -29,8 +29,12 @@ async def password(ctx):
     await ctx.send(gen_pass(10))
 
 @bot.command()
-async def coind(ctx):
+async def coin(ctx):
     await ctx.send(flip_coin())
+
+@bot.command()
+async def ILoveAxolotls(ctx)
+    await ctx.semd("Awww 😍🥰")
 
 @bot.command()
 async def roll(ctx, dice: str):
@@ -43,6 +47,6 @@ async def roll(ctx, dice: str):
     result = ', '.join(str(random.randint(1, limit)) for r in range(rolls))
     await ctx.send(result)
     
-bot.run("TÚ TOKEN")
+bot.run("TOKEN")
 
-bot.run(settings["TÚ TOKEN"])
+bot.run(settings["TOKEN"])
