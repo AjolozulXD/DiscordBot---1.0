@@ -33,7 +33,7 @@ async def coin(ctx):
     await ctx.send(flip_coin())
 
 @bot.command()
-async def ILoveAxolotls(ctx)
+async def ILoveAxolotls(ctx):
     await ctx.semd("Awww 😍🥰")
 
 @bot.command()
