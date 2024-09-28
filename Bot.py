@@ -102,7 +102,7 @@ async def tec(ctx):
     imagenes_y_pesos = {
         "Limitless.jpg": 60,
         "Construccionç.jpg": 50,
-        "Manipulación_de_Cuervos": 40,
+        "Manipulación_de_Cuervos.jpg": 40,
         "Técnica_de_Manipulación_de_Artefactos.jpg": 50,
         "Vudu.jpg": 45,
         "ManipulacionDeMarionetas.jpg": 40,
@@ -110,7 +110,7 @@ async def tec(ctx):
 
         "Proporcion.jpg": 20,
         "CorrosiónExtrema.jpg": 30,
-        "Técnica_de_Necromancia": 35,
+        "Técnica_de_Necromancia.jpg": 35,
         "Técnica_de_Inmortalidad.jpg": 25,
         "Bestias_Protectoras.jpg": 15.5,
         
@@ -119,7 +119,7 @@ async def tec(ctx):
         "Ten-Shadows.jpg": 4.5,
         "Técnica_de_Proyección.jpg": 4,
         "Técnica_de_Inverso.jpg": 5,
-        "Técnica_de_Formación_de_Hielo,jpg": 3,
+        "Técnica_de_Formación_de_Hielo.jpg": 3,
         "Técnica_de_El_Cómico.jpg": 1,
         "Discurso_Maldito.jpg": 15.3,
         "Plant.jpg": 5,
@@ -150,6 +150,6 @@ async def tec(ctx):
     await ctx.send(file=picture)
 
 
-bot.run("TOKEN")
+bot.run("Token")
 
-bot.run(settings["TOKEN"])
+bot.run(settings["Token"])
